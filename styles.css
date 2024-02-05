@@ -1,3 +1,9 @@
 h1{
     font-size: 5px;
 }
+h2{
+    font: optional;
+}
+h3{
+    font: optional;
+}

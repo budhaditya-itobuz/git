@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: "poppins";
+}
+.product-card{
+    max-width: 200px;
+    overflow: hidden;
+    min-height: 370px;
+    display: flex;
+    flex-direction: column;
+    margin:10px;
+    border:1px solid rgb(165, 153, 153);
+    border-radius: 4px;
+    img{
+         width:100%;
+    }
+    .card-info{
+        padding:10px;
+    }
+    h5{
+        margin:8px 0;
+        font-size: 12px;
+        font-weight: 400;
+    }
+    h4{
+        font-size: 14px;
+        margin-bottom: 5px;
+        span{
+            font-weight: 400;
+        }
+    }
+    button{
+        color:white;
+        background-color: black;
+        padding:5px 10px;
+        border-radius: 4px;
+        border: none;
+        margin:5px 0;
+    }
+}
+.container{
+    max-width: 800px;
+    margin:auto;
+    display: flex;
+    padding:20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.options{
+    background-color: aqua;
+    padding:50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.menu-item{
+    background-color: green;
+    border: none;
+    padding:10px;
+    border-radius: 3px;
+    text-decoration: none;
+    color: white;
+}
+.number-group{
+    span{
+        padding:0 6px;
+        border-right: 1px solid rgb(137, 118, 118);
+        margin:0;
+        cursor: pointer;
+    }
+    span:nth-child(3){
+        border: none;
+    }
+    span:nth-child(2){
+        cursor: default;
+    }
+    align-self: flex-end;
+    background-color: rgb(232, 218, 221);
+    width: fit-content;
+    border-radius: 2px;
+    margin:10px 0;
+}
